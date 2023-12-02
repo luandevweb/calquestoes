@@ -15,14 +15,14 @@ function capturar(){
     
         resultado.innerHTML = "O resultado obtido na matéria de "+materia+"foi de: <h1>"+arrendondar+" %</h1>" + "Acertos: " + acertos +
         "<br>Erros: " + erros +
-    "<br><img src='/img/vinteecinco.png' width='200px'>" + "<h4>Você está abaixo da média!"
+    "<br><img src='img/vinteecinco.png' width='200px'>" + "<h4>Você está abaixo da média!"
     }
     
     else if(arrendondar >= 26 && arrendondar <= 50 ){
         resultado.innerHTML = "O resultado obtido na matéria de "+materia+" foi de: <h1>"+arrendondar+" %</h1>" + "Acertos: " + acertos +
         "<br>Erros: " + erros +
     
-    "<br><img src='/img/cinquenta.png' width='200px'>" + "<h4>Você precisa estudar mais!"
+    "<br><img src='img/cinquenta.png' width='200px'>" + "<h4>Você precisa estudar mais!"
     
     }
     
@@ -30,13 +30,13 @@ function capturar(){
     
         resultado.innerHTML = "O resultado obtido na matéria de "+materia+" foi de: <h1>"+arrendondar+" %</h1>" + "Acertos: " + acertos +
         "<br>Erros: " + erros +
-    "<br><img src='/img/setenta.png' width='200px'>" + "<h4>Você está na zona tolerável"
+    "<br><img src='img/setenta.png' width='200px'>" + "<h4>Você está na zona tolerável"
     
     }else{
     
         resultado.innerHTML = "O resultado obtido na matéria de "+materia+" foi de: <h1>"+arrendondar+" %</h1>" + "Acertos: " + acertos +
         "<br>Erros: " + erros +
-    "<br><img src='/img/cem.png' width='200px'>" + "<h4>Você está mandando bem!"
+    "<br><img src='img/cem.png' width='200px'>" + "<h4>Você está mandando bem!"
     
     }
     }
