@@ -13,7 +13,7 @@ function capturar(){
     
     if(arrendondar <= 25){
     
-        resultado.innerHTML = "O resultado obtido na matéria de "+materia+"foi de: <h1>"+arrendondar+" %</h1>" + "Acertos: " + acertos +
+        resultado.innerHTML = "O resultado obtido na matéria de "+materia+" foi de: <h1>"+arrendondar+" %</h1>" + "Acertos: " + acertos +
         "<br>Erros: " + erros +
     "<br><img src='img/vinteecinco.png' width='200px'>" + "<h4>Você está abaixo da média!"
     }
