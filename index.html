@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALQUESTÕES</title>
+    <link rel="stylesheet" href="style.css">
+    <script>alert("ESTE PROGRAMA ESTÁ EM FASE DE TESTES, MAIS INFORMAÇÕES PROCURE POR LUAN DEVWEB :)")</script>
+</head>
+<body>
+
+    <header>
+<span id="calquestoes">CALQUESTÕES</span><br>
+<span id="calculos">Cálculo de Questões</span>
+<span id="demo">DESENVOLVIDO POR LUAN SILVA - VERSÃO DE TESTE</span>    
+</header>
+
+    <main>
+
+        <label for="materias">Escolha uma matéria :</label>
+
+        <select id="materias">
+            <option value="Português">Português</option>
+            <option value="Direito Constitucional">Direito Const</option>
+            <option value="Legislação Extravagante">Legis. Ext</option>
+            <option value="História">História</option>
+            <option value="RLM">RLM</option>
+            <option value="Informática">Informática</option>
+        </select>
+
+        <label for="qtdquestoes">Qtd. Questões</label>
+        <input type="number" id="qtdquestoes">
+
+        <label for="qtdacertos">Qtd. Acertos</label>
+        <input type="number" id="qtdacertos">
+
+        <button onclick="capturar()">CALCULAR</button>
+
+        <span id="resultado"></span>
+
+        <!-- <h3>RESULTADO :</h3> -->
+
+    </main>
+
+    <script src="script.js"></script>
+
+    
+</body>
+</html>
